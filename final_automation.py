@@ -312,9 +312,11 @@ while(True):
                 if node == "1":
                     os.system("hadoop-daemon.sh start namenode")
                     input("Enter to continue.....")
+                    os.system("clear")
                 elif node == "2":
                     os.system("hadoop-daemon.sh start datanode")
                     input("Enter to continue.....")
+                    os.system("clear")
                 else:
                     print("wrong choice!!! :( ")
                     return
@@ -326,9 +328,11 @@ while(True):
                 if stopnode == "1":
                     os.system("hadoop-daemon.sh stop namenode")
                     input("Enter to continue.....")
+                    os.system("clear")
                 elif stopnode == "2":
                     os.system("hadoop-daemon.sh stop datanode")
                     input("Enter to continue.....")
+                    os.system("clear")
                 else:
                     print("WRONG CHOICE ! :( ")
                     return
