@@ -306,8 +306,8 @@ while(True):
                 input("Enter to continue.....")
             elif choice == "4":
                 node = input("""
-                                    PRESS 1: FOR NAMENODE
-                                    PRESS 2: FOR DATANODE
+                              PRESS 1: FOR STARTING NAMENODE
+                              PRESS 2: FOR DELETING DATANODE
                                         """)
                 if node == "1":
                     os.system("hadoop-daemon.sh start namenode")
@@ -320,8 +320,8 @@ while(True):
                     return
             elif choice == 5:
                 stopnode = input("""
-                                    PRESS 1: FOR NAMENODE
-                                    PRESS 2: FOR DATANODE
+                                 PRESS 1: FOR STOPPING NAMENODE
+                                 PRESS 2: FOR STOPPING DATANODE
                                         """)
                 if stopnode == "1":
                     os.system("hadoop-daemon.sh stop namenode")
