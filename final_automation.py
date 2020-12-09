@@ -318,9 +318,9 @@ while(True):
                     input("Enter to continue.....")
                     os.system("clear")
                 else:
-                    print("wrong choice!!! :( ")
+                    print("wrong choice! ")
                     return
-            elif choice == 5:
+            elif choice == "5":
                 stopnode = input("""
                                  PRESS 1: FOR STOPPING NAMENODE
                                  PRESS 2: FOR STOPPING DATANODE
@@ -334,7 +334,7 @@ while(True):
                     input("Enter to continue.....")
                     os.system("clear")
                 else:
-                    print("WRONG CHOICE ! :( ")
+                    print("WRONG CHOICE ! ")
                     return
             elif choice == "6":
                 os.system("hadoop dfsasdmin -report")
